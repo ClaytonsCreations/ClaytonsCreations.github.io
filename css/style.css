@@ -855,6 +855,7 @@ a:focus {
 }
 
 .portfolio .portfolio-img {
+    width: auto;
     position: relative;
     overflow: hidden;
 }
@@ -862,8 +863,8 @@ a:focus {
 .portfolio .portfolio-img img {
     position: relative;
     width: 100%; 
-    height: 100%; 
-    object-fit: cover;
+    height: 225px; 
+    object-fit: contain;
     transform: scale(1.1);
     transition: .5s;
 }
