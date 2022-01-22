@@ -1307,7 +1307,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: teal;
+    /* background: teal; */
 }
 
 .contact .container-fluid {
@@ -1322,22 +1322,22 @@ a:focus {
 }
 
 .contact .contact-form input {
-    color: #ffffff;
+    color: black;
     padding: 15px 0;
     background: none;
     border-radius: 0;
-    border: none;
-    border-bottom: 1px solid rgba(256, 256, 256, .5);
+    border: solid;
+    /* border-bottom: 1px solid rgba(256, 256, 256, .5); */
 }
 
 .contact .contact-form textarea {
-    color: #ffffff;
+    color: black;
     height: 90px;
     padding: 15px 0;
     background: none;
     border-radius: 0;
-    border: none;
-    border-bottom: 1px solid rgba(256, 256, 256, .5);
+    border: solid;
+    /* border-bottom: 1px solid rgba(256, 256, 256, .5); */
 }
 
 
@@ -1370,11 +1370,11 @@ form label,
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-form label,
+/* form label,
 form legend {
   font-size: 0.825rem;
   margin-bottom: 0.5rem;
-}
+} */
 input[type=text], 
 textarea {
     -webkit-appearance: none;

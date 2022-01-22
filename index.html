@@ -658,17 +658,23 @@
                                 <div id="success"></div>
                                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
                                     <div class="control-group">
-                                        <script src="https://kwesforms.com/v2/kwes-script.js" defer></script>
-                                        <form class="kwes-form" action="https://kwesforms.com/api/foreign/forms/eW780ndTduE0d2xJTe8N">
-                                            <label for="name">Your Name</label>
-                                            <input type="text" name="name" rules="required|max:255">
-                                            <label for="email">Your Email</label>
-                                            <input type="text" name="email" rules="required|max:255">
-                                            <label for="message">Your Message</label>
-                                            <input type="text" name="message" rules="required|max:255">
-                                      
-                                            <button type="submit">Submit</button>
-                                        </form>
+                                        <form action="https://formspree.io/f/myyokogl" method="POST">
+                                        <label>
+                                        Your Name:
+                                        <input type="name" name="name">
+                                        </label>
+                                        <label>
+                                        <label>
+                                          Your email:
+                                          <input type="email" name="_replyto">
+                                        </label>
+                                        <label>
+                                          Your message:
+                                          <textarea name="message"></textarea>
+                                        </label>
+                                        <!-- your other form fields go here -->
+                                        <button type="submit">Send</button>
+                                      </form>
                                     </div>
                                 </form>
                             </div>
