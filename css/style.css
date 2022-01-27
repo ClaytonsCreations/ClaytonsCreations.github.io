@@ -1203,8 +1203,8 @@ a:focus {
 /*******************************/
 .testimonial {
     position: relative;
-    margin: 45px 0;
-    padding: 90px 0;
+    margin: 15px 0;
+    padding: 40px 0;
     background: teal;
 }
 
@@ -1285,7 +1285,9 @@ a:focus {
 
 .testimonial .owl-dot.active {
     background: #ffffff;
-}
+} */
+ 
+
 
 
 /*******************************/
