@@ -305,6 +305,30 @@ a:focus {
     margin-right: 10px;
 }
 
+.hero .hero-social {
+    margin-top: 15px;
+}
+
+.hero .hero-social h2 {
+    color: white;
+    font-size: 20px;
+}
+.hero .hero-social a img {
+    margin-right: 15px;
+    font-size: 30px;
+    color: #ffffff;
+    transition: .3s;
+    height: 50px;
+    /* background-color: teal; */
+}
+
+.hero .hero-social a:last-child img {
+    margin: 0;
+}
+
+.hero .hero-social a:hover img {
+    color: #414141;
+}
 
 @media (max-width: 991.98px) {
     .hero {
@@ -387,10 +411,12 @@ a:focus {
 }
 
 
+
 /*******************************/
 /******* Section Header ********/
 /*******************************/
-.section-header {
+
+.section-header{
     position: relative;
     margin-bottom: 45px;
 }
