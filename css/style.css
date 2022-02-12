@@ -814,6 +814,11 @@ a:focus {
     padding: 45px 0 15px 0;
 }
 
+.portfolio .container {
+    /* max-width: 1366px; */
+    padding: 0;
+}
+
 .portfolio #portfolio-filter {
     padding: 0;
     margin: -15px 0 25px 0;
@@ -857,16 +862,16 @@ a:focus {
 }
 
 .portfolio .portfolio-img {
-    width: auto;
+    /* width: auto; */
     position: relative;
     overflow: hidden;
 }
 
 .portfolio .portfolio-img img {
     position: relative;
-    width: 100%; 
+    width: 325px; 
     height: 225px; 
-    object-fit: contain;
+    object-fit: cover;
     transform: scale(1.1);
     transition: .5s;
 }
