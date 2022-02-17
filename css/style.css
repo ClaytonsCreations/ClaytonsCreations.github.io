@@ -536,7 +536,7 @@ a:focus {
     width: 0px;
     background: teal;
     border-radius: 10px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .about .about-text a.btn {
